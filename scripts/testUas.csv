@@ -1,5 +1,2 @@
 SEQUENTIAL;
-#scs1861_staging2;scs1861_staging1;tribona.org;[authentication username=scs1861_staging2 password=sonetel@1234];6273;
-#sntlrnd1818_staging2;scs1861_staging1;tribona.org;[authentication username=sntlrnd1818_staging2 password=sonetel@1234];6273;
-#u2_sntlrnd1818_prod2;scs1861_staging1;tribona.org;[authentication username=u2_sntlrnd1818_prod2 password=sonetel@1234];6273;
 test895187951711567647677;test895187951711567647677;phone.plivo.com;[authentication username=test895187951711567647677 password=plivo];7446;
