@@ -34,7 +34,7 @@
 <action>
 <ereg regexp=".*" search_in="hdr" header="From:" assign_to="1" />
           <log message="Callee Recieved the INVITE--[timestamp]"/>
-<ereg regexp="sip.*[0-9]" search_in="hdr" header="Contact:" assign_to="99" />
+<ereg regexp="sip.*[0-9]*" search_in="hdr" header="Contact:" assign_to="99" />
           
 </action>
 </recv>
@@ -116,13 +116,12 @@
     <![CDATA[
 
       BYE [$99] SIP/2.0
-      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];rport;ibranch=[branch]
       From: [$2]
       To: [$1]
       [routes]
       Call-ID: [call_id]
       CSeq: [cseq] BYE
-      Contact: <sip:[local_ip]:[local_port];transport=[transport]>
       Max-Forwards: 70
       Subject: Test Call
       Content-Length: 0
