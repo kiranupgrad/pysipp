@@ -1,0 +1,256 @@
+----------------------------------------------- 2021-06-02 22:55:17.222026
+UDP message received [1527] bytes :
+
+INVITE sip:test895187951711567647677@100.82.243.200:62648;rinstance=863f58c9072587ab;transport=UDP SIP/2.0
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Record-Route: <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.d9cf568c7946e615baf36e57ead227ec.0;i=51bf1
+Via: SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKHZ98K2g0rvaNB
+Max-Forwards: 39
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 INVITE
+Contact: <sip:Plivo@10.213.24.199:5080;transport=tcp>
+User-Agent: Plivo
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY
+Supported: path, replaces
+Allow-Events: talk, hold, conference, refer
+Privacy: none
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 304
+X-ParentCallUUID: 0b324352-c3c7-11eb-b6be-e1fbaf22c1ad
+X-SipUserAgent: X-Lite release 1104o stamp 56125
+P-Asserted-Identity: "test1281881673873471385" <sip:+007@10.213.24.199>
+
+v=0
+o=Plivo 1622637767 1622637768 IN IP4 15.207.90.4
+s=Plivo
+c=IN IP4 15.207.90.4
+t=0 0
+m=audio 16756 RTP/AVP 0 8 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=rtcp-mux
+a=rtcp:16756 IN IP4 15.207.90.4
+a=silenceSupp:off - - - -
+a=ptime:20
+
+----------------------------------------------- 2021-06-02 22:55:17.222816
+UDP message sent (657 bytes):
+
+SIP/2.0 180 Ringing
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.d9cf568c7946e615baf36e57ead227ec.0;i=51bf1, SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKHZ98K2g0rvaNB
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 INVITE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:55:17.224244
+UDP message sent (818 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.d9cf568c7946e615baf36e57ead227ec.0;i=51bf1, SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKHZ98K2g0rvaNB
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 INVITE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Content-Type: application/sdp
+Content-Length:   131
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.0.2.15
+s=-
+c=IN IP4 10.0.2.15
+t=0 0
+m=audio 6000 RTP/AVP 0 8
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2021-06-02 22:55:17.725127
+UDP message sent (818 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.d9cf568c7946e615baf36e57ead227ec.0;i=51bf1, SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKHZ98K2g0rvaNB
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 INVITE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Content-Type: application/sdp
+Content-Length:   131
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.0.2.15
+s=-
+c=IN IP4 10.0.2.15
+t=0 0
+m=audio 6000 RTP/AVP 0 8
+a=rtpmap:0 PCMU/8000
+
+----------------------------------------------- 2021-06-02 22:55:17.748951
+UDP message received [706] bytes :
+
+ACK sip:100.82.243.200:62648;transport=UDP SIP/2.0
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm>
+Record-Route: <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm>
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.7208da5424a949f8db69fb616189ebc1.0;i=51bf1
+Via: SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKKHvtQrj7jeQtj
+Max-Forwards: 69
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 ACK
+Contact: <sip:Plivo@10.213.24.199:5080;transport=tcp>
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:55:18.246098
+UDP message received [732] bytes :
+
+ACK sip:100.82.243.200:62648;transport=UDP SIP/2.0
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Record-Route: <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.7208da5424a949f8db69fb616189ebc1.0;i=51bf1
+Via: SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKKHvtQrj7jeQtj
+Max-Forwards: 69
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 ACK
+Contact: <sip:Plivo@10.213.24.199:5080;transport=tcp>
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+ACK sip:100.82.243.200:62648;transport=UDP SIP/2.0
+Record-Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Record-Route: <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Via: SIP/2.0/UDP 52.9.254.127:5060;branch=z9hG4bK320d.7208da5424a949f8db69fb616189ebc1.0;i=51bf1
+Via: SIP/2.0/TCP 10.213.24.199:5080;received=10.213.24.199;rport=56295;branch=z9hG4bKKHvtQrj7jeQtj
+Max-Forwards: 69
+From: "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+To: <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773469 ACK
+Contact: <sip:Plivo@10.213.24.199:5080;transport=tcp>
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:55:22.415200
+UDP message received [267] bytes :
+
+OPTIONS sip:100.82.243.200:62648 SIP/2.0
+Via: SIP/2.0/UDP 10.202.22.16:5060;branch=z9hG4bK6172882
+From: sip:keepalive@phone.plivo.com;tag=393a2a73
+To: sip:100.82.243.200:62648
+Call-ID: 1396539f-7a1ba47b-44e7cea@10.202.22.16
+CSeq: 1 OPTIONS
+Content-Length: 0
+
+
+Discarded message for new calls while quitting
+----------------------------------------------- 2021-06-02 22:55:52.654226
+UDP message received [267] bytes :
+
+OPTIONS sip:100.82.243.200:62648 SIP/2.0
+Via: SIP/2.0/UDP 10.202.22.16:5060;branch=z9hG4bK6376937
+From: sip:keepalive@phone.plivo.com;tag=393a2e30
+To: sip:100.82.243.200:62648
+Call-ID: 1396539f-7a1ba838-44e7d08@10.202.22.16
+CSeq: 1 OPTIONS
+Content-Length: 0
+
+
+Discarded message for new calls while quitting
+----------------------------------------------- 2021-06-02 22:56:07.754890
+UDP message sent (573 bytes):
+
+BYE sip:Plivo@10.213.24.199:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.0.2.15:7452;branch=z9hG4bK-31858-1-7
+From:  <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+To:  "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773470 BYE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Max-Forwards: 70
+Subject: Test Call
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:56:08.256923
+UDP message sent (573 bytes):
+
+BYE sip:Plivo@10.213.24.199:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.0.2.15:7452;branch=z9hG4bK-31858-1-7
+From:  <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+To:  "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773470 BYE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Max-Forwards: 70
+Subject: Test Call
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:56:09.260492
+UDP message sent (573 bytes):
+
+BYE sip:Plivo@10.213.24.199:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.0.2.15:7452;branch=z9hG4bK-31858-1-7
+From:  <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+To:  "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773470 BYE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Max-Forwards: 70
+Subject: Test Call
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:56:11.264633
+UDP message sent (573 bytes):
+
+BYE sip:Plivo@10.213.24.199:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.0.2.15:7452;branch=z9hG4bK-31858-1-7
+From:  <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+To:  "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773470 BYE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Max-Forwards: 70
+Subject: Test Call
+Content-Length: 0
+
+
+----------------------------------------------- 2021-06-02 22:56:15.269741
+UDP message sent (573 bytes):
+
+BYE sip:Plivo@10.213.24.199:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.0.2.15:7452;branch=z9hG4bK-31858-1-7
+From:  <sip:test895187951711567647677@10.202.22.16;transport=tcp>;tag=1
+To:  "test1281881673873471385" <sip:+007@10.213.24.199>;tag=N60m96QX92eKm
+Route: <sip:52.9.254.127:5060;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>, <sip:52.9.254.127;transport=tcp;r2=on;lr=on;ftag=N60m96QX92eKm;did=ee2.6fc2>
+Call-ID: e371627c-3e69-123a-e08e-0a7017e0adc4
+CSeq: 36773470 BYE
+Contact: <sip:10.0.2.15:7452;transport=UDP>
+Max-Forwards: 70
+Subject: Test Call
+Content-Length: 0
+
+

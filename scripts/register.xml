@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE scenario SYSTEM "sipp.dtd">
+
+<scenario xmlns:xi="http://www.w3.org/2001/XInclude" name="Describe this scenario here" parameters="-mc" source="snipp.pl -i 192.168.2.123:7000 -f xlite_new.pcap" id="" config="">
+<!-- Generated Scenario for 192.168.2.123 using Snipp v1.3.0 -->
+
+  <send dialog="1" >
+    <![CDATA[
+
+      REGISTER sip:phone.plivo.com:5060 SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch];rport
+      Max-Forwards: 70
+      Contact: <sip:[field0]@[local_ip]:[local_port];rinstance=863f58c9072587ab;transport=[transport]>
+      To: "[field0]"<sip:[field0]@[field2]>
+      From: "[field0]"<sip:[field0]@[field2]>;tag=[pid]SIPpTag09[call_number]
+      Call-ID: [call_id]
+      CSeq: [cseq] REGISTER
+      Expires: 180
+      Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+      Supported: timer
+      User-Agent: X-Lite release 1104o stamp 56125
+      Content-Length: [len]
+
+    ]]>
+  </send>
+
+  <!-- <pause milliseconds = "341"/> -->
+  <recv response="401" auth="true">
+  </recv>
+
+  <!-- The following packet triggered 'WARNING: Need to input password= in [authentication] keyword manually; without inputted password authentication may fail' -->
+  <send dialog="1" retrans="500">
+    <![CDATA[
+
+      REGISTER sip:phone.plivo.com:5060 SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch];rport
+      Max-Forwards: 70
+      Contact: <sip:[field0]@[local_ip]:[local_port];rinstance=863f58c9072587ab;transport=[transport]>
+      To: "[field0]"<sip:[field0]@[field2]>
+      From: "[field0]"<sip:[field0]@[field2]>;tag=[pid]SIPpTag09[call_number]
+      Call-ID: [call_id]
+      CSeq: [cseq] REGISTER
+      Expires: 180
+      Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY, MESSAGE, SUBSCRIBE, INFO
+      Supported: timer
+      User-Agent: X-Lite release 1104o stamp 56125
+      [field3]
+      Content-Length: [len]
+
+    ]]>
+  </send>
+
+  <!-- <pause milliseconds = "412"/> -->
+  <recv response="200" dialog="1">
+  </recv>
+
+
+
+</scenario>
