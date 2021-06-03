@@ -6,12 +6,16 @@ Python configuring and launching the infamous
 [SIPp](http://sipp.sourceforge.net/) using an api inspired by
 [requests](http://docs.python-requests.org/)
 
+## Pre-requisites
+
+   Install the  Latest version of Sipp
+
 ## Installiing Pysipp
    
    This scenario is developed on top of Pysipp . 
    Install the Pysipp using below command 
-
-   pip install pysipp
+  
+     pip install pysipp
 
 
 ## how to run the scripts
