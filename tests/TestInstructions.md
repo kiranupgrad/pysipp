@@ -6,8 +6,23 @@ Python configuring and launching the infamous
 [SIPp](http://sipp.sourceforge.net/) using an api inspired by
 [requests](http://docs.python-requests.org/)
 
+## Installiing Pysipp
+   
+   This scenario is developed on top of Pysipp . 
+   Install the Pysipp using below command 
+
+   pip install pysipp
+
+
 ## how to run the scripts
-Execute below steps to sequentially to cover the scenarion 
+
+1.Execute  below script to run the whole scenration
+ 
+ python tests/PysipCalldriver.py
+
+
+
+2. Execute below steps to sequentially to cover the scenarion 
 
      
      python tests/pysippReg_caller.py
@@ -25,5 +40,7 @@ Execute below steps to sequentially to cover the scenarion
        messages.log
        screen.log
        debug.log
-       call log 
+       call log  
 
+##  SIPP XML scenarioss
+   Sipp scenarions are avialable in this path : /scripts 
