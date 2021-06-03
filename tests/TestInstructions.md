@@ -18,19 +18,19 @@ Python configuring and launching the infamous
 
 1.Execute  below script to run the whole scenration
  
- python tests/PysipCalldriver.py
+     **python tests/PysipCalldriver.py**
 
 
 
 2. Execute below steps to sequentially to cover the scenarion 
 
-     python tests/pysippReg_caller.py
+     **python tests/pysippReg_caller.py
      
      python tests/pysippReg_callee.py
      
      python tests/pysippUAS_final.py
      
-     python tests/pysippUAC_final.py   
+     python tests/pysippUAC_final.py **  
 
      
 
