@@ -1,11 +1,11 @@
 ------------------------------ Scenario Screen -------- [1-9]: Change Screen --
   Call rate (length)   Port   Total-time  Total-calls  Remote-host
-  1.0(0 ms)/1.000s   6448      54.69 s            1  52.9.254.123:5060(UDP)
+  1.0(0 ms)/1.000s   6448      54.34 s            1  52.9.254.123:5060(UDP)
 
   Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
   0 calls (limit 1)                       Peak was 1 calls, after 1 s
-  0 Running, 3 Paused, 191 Woken up
-  0 dead call msg (discarded)             2 out-of-call msg (discarded)
+  0 Running, 3 Paused, 190 Woken up
+  0 dead call msg (discarded)             3 out-of-call msg (discarded)
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
 
@@ -24,9 +24,9 @@
 Last Error: Discarding message which can't be mapped to a known SIPp cal...
 ------- Waiting for active calls to end. Press [q] again to force exit. -------
 ----------------------------- Statistics Screen ------- [1-9]: Change Screen --
-  Start Time             | 2021-06-02	22:55:13.723767	1622654713.723767         
-  Last Reset Time        | 2021-06-02	22:56:08.423163	1622654768.423163         
-  Current Time           | 2021-06-02	22:56:08.423280	1622654768.423280         
+  Start Time             | 2021-06-03	06:28:57.266868	1622681937.266868         
+  Last Reset Time        | 2021-06-03	06:29:51.620209	1622681991.620209         
+  Current Time           | 2021-06-03	06:29:51.620370	1622681991.620370         
 -------------------------+---------------------------+--------------------------
   Counter Name           | Periodic value            | Cumulative value
 -------------------------+---------------------------+--------------------------

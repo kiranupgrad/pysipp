@@ -1,10 +1,10 @@
 ------------------------------ Scenario Screen -------- [1-9]: Change Screen --
   Port   Total-time  Total-calls  Transport
-  7452      73.19 s            1  UDP
+  7452      55.23 s            1  UDP
 
   Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
-  0 calls                                 Peak was 1 calls, after 12 s
-  0 Running, 2 Paused, 260 Woken up
+  0 calls                                 Peak was 1 calls, after 4 s
+  0 Running, 3 Paused, 194 Woken up
   0 dead call msg (discarded)           
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
@@ -19,33 +19,33 @@
 
 5 : stream audio 
 6 :  [    50.0s] Pause              1                             1        
-7 :  <---------- BYE                1         4         0                      
-8 :  ----------> 200                0         0         1         0            
+7 :  <---------- BYE                1         1         0                      
+8 :  ----------> 200                1         0         0         0            
 
-Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
+Last Error: Continuing call on unexpected message for Call-Id '45f9c2e9-...
 ------- Waiting for active calls to end. Press [q] again to force exit. -------
 ----------------------------- Statistics Screen ------- [1-9]: Change Screen --
-  Start Time             | 2021-06-02	22:55:04.559019	1622654704.559019         
-  Last Reset Time        | 2021-06-02	22:56:17.761904	1622654777.761904         
-  Current Time           | 2021-06-02	22:56:17.762068	1622654777.762068         
+  Start Time             | 2021-06-03	06:28:56.232453	1622681936.232453         
+  Last Reset Time        | 2021-06-03	06:29:51.470357	1622681991.470357         
+  Current Time           | 2021-06-03	06:29:51.470454	1622681991.470454         
 -------------------------+---------------------------+--------------------------
   Counter Name           | Periodic value            | Cumulative value
 -------------------------+---------------------------+--------------------------
   Elapsed Time           | 00:00:00:000000           | 00:00:00:000000          
-  Call Rate              |    0.000 cps              |    0.014 cps             
+  Call Rate              |    0.000 cps              |    0.018 cps             
 -------------------------+---------------------------+--------------------------
   Incoming calls created |        0                  |        1                 
   Outgoing calls created |        0                  |        0                 
   Total Calls created    |                           |        1                 
   Current Calls          |        0                  |                          
 -------------------------+---------------------------+--------------------------
-  Successful call        |        0                  |        0                 
-  Failed call            |        0                  |        1                 
+  Successful call        |        0                  |        1                 
+  Failed call            |        0                  |        0                 
 -------------------------+---------------------------+--------------------------
   Response Time 1        | 00:00:00:000000           | 00:00:00:000000          
   Response Time 2        | 00:00:00:000000           | 00:00:00:000000          
   Call Length            | 00:00:00:000000           | 00:00:00:000000          
-Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
+Last Error: Continuing call on unexpected message for Call-Id '45f9c2e9-...
 ------- Waiting for active calls to end. Press [q] again to force exit. -------
 ---------------------------- Repartition Screen ------- [1-9]: Change Screen --
   Average Response Time Repartition 1                                          
@@ -67,7 +67,7 @@ Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
           1000 ms <= n <       5000 ms :          0
           5000 ms <= n <      10000 ms :          0
                    n >=      10000 ms :          1
-Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
+Last Error: Continuing call on unexpected message for Call-Id '45f9c2e9-...
 ------- Waiting for active calls to end. Press [q] again to force exit. -------
 --------------------------- Repartition 2 Screen ------ [1-9]: Change Screen --
   Average Response Time Repartition 2                                          
@@ -80,5 +80,5 @@ Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
            100 ms <= n <        150 ms :          0
            150 ms <= n <        200 ms :          0
                    n >=        200 ms :          1
-Last Error: Call-Id: e371627c-3e69-123a-e08e-0a7017e0adc4, receive timeo...
+Last Error: Continuing call on unexpected message for Call-Id '45f9c2e9-...
 ------- Waiting for active calls to end. Press [q] again to force exit. -------

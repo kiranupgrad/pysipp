@@ -1,10 +1,10 @@
 ------------------------------ Scenario Screen -------- [1-9]: Change Screen --
   Call rate (length)   Port   Total-time  Total-calls  Remote-host
-  1.0(0 ms)/1.000s   7452       1.72 s            1  52.9.254.127:5060(UDP)
+  1.0(0 ms)/1.000s   7452       1.71 s            1  52.9.254.123:5060(UDP)
 
   Call limit 1 hit, 0.0 s period          0 ms scheduler resolution            
   0 calls (limit 1)                       Peak was 1 calls, after 1 s
-  0 Running, 4 Paused, 5 Woken up
+  0 Running, 4 Paused, 6 Woken up
   0 dead call msg (discarded)             0 out-of-call msg (discarded)
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
   0 open sockets                          0/0/0 UDP errors (send/recv/cong)
@@ -16,14 +16,14 @@
 3 :         200 <----------         1         0         0         0            
 ------- Waiting for active calls to end. Press [q] again to force exit. -------
 ----------------------------- Statistics Screen ------- [1-9]: Change Screen --
-  Start Time             | 2021-06-02	22:54:25.159105	1622654665.159105         
-  Last Reset Time        | 2021-06-02	22:54:26.878169	1622654666.878169         
-  Current Time           | 2021-06-02	22:54:26.878241	1622654666.878241         
+  Start Time             | 2021-06-03	06:28:53.257978	1622681933.257978         
+  Last Reset Time        | 2021-06-03	06:28:54.969434	1622681934.969434         
+  Current Time           | 2021-06-03	06:28:54.969471	1622681934.969471         
 -------------------------+---------------------------+--------------------------
   Counter Name           | Periodic value            | Cumulative value
 -------------------------+---------------------------+--------------------------
   Elapsed Time           | 00:00:00:000000           | 00:00:00:000000          
-  Call Rate              |    0.000 cps              |    0.582 cps             
+  Call Rate              |    0.000 cps              |    0.584 cps             
 -------------------------+---------------------------+--------------------------
   Incoming calls created |        0                  |        0                 
   Outgoing calls created |        0                  |        1                 
