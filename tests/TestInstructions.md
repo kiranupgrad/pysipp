@@ -18,7 +18,7 @@ Python configuring and launching the infamous
 
 1.Execute  below script to run the whole scenration
  
-     **python tests/PysipCalldriver.py**
+     ****python tests/PysipCalldriver.py****
 
 
 
@@ -30,13 +30,13 @@ Python configuring and launching the infamous
      
      **python tests/pysippUAS_final.py**
      
-       **python tests/pysippUAC_final.py **
+       **python tests/pysippUAC_final.py**
 
      
 
 
 ## Logs for above scripts
-  Logs are available in this path /logs  These are the logs availables
+  Logs are available in  /logs path:  These are the logs availables
           **messages.log**
           **screen.log**
           **debug.log**
