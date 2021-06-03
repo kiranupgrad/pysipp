@@ -24,10 +24,12 @@ Python configuring and launching the infamous
 
 2. Execute below steps to sequentially to cover the scenarion 
 
-     
      python tests/pysippReg_caller.py
+     
      python tests/pysippReg_callee.py
+     
      python tests/pysippUAS_final.py
+     
      python tests/pysippUAC_final.py   
 
      
