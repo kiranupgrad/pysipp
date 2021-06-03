@@ -39,8 +39,8 @@ Python configuring and launching the infamous
   Logs are available in this path /logs  These are the logs availables
         messages.log
         screen.log
-         debug.log
-         all log  
+        ebug.log
+        Scenario log  
 
 ##  SIPP XML scenarioss
    Sipp scenarions are avialable in this path : /scripts 
